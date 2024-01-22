@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  height: 35px;
+  width: 35px;
+  line-height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #13171d;
+  border-radius: 50%;
+  transition: 0.5s all ease;
+}
+
+.icon:hover {
+  background-color: #4857bc;
+  cursor: pointer;
+}
+
+.footer-link ul li {
+  padding: 8px 0;
+}
+
+.service-card {
+  box-shadow: 0px 1px 16px 0px rgba(139, 139, 139, 0.16);
+}
+
+.service-list ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #4857bc, #7b8dd2);
+}
